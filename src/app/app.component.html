@@ -1,0 +1,8 @@
+<ng-container *ngFor="let player of players; trackBy: trackByOrder">
+  <div [appDraggable]="player.id" class="box">
+    <div class="text">{{ player.name }}</div>
+  </div>
+  <div [appDropable]="player.order" class="box">
+   
+  </div>
+</ng-container>

@@ -1,0 +1,45 @@
+p {
+  font-family: Lato;
+}
+
+.dropable {
+  height: 20px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: block;
+  height: 5px;
+  border: none;
+}
+
+.show {
+  background-color: aqua !important;
+}
+
+.floating {
+  top: 0;
+  width: 100%;
+}
+
+.box {
+  border: 1px solid black;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 3px 2px #33333333;
+  background-color: #223dc4;
+  color: #ffffff;
+}
+
+.text {
+  vertical-align: middle;
+  line-height: 30px;
+}
